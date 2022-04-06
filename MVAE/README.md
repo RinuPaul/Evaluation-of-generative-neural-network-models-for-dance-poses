@@ -1,4 +1,4 @@
-#Motion VAE
+# Motion VAE
 
 
 For training dance execute train_mvae_v2.py and for inference execute play_mvae.py.
