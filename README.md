@@ -10,3 +10,8 @@ The preprocessing of the AIST++ datset to convert the dance clips into point clo
 The LMA evaluation codes are Dance_revflow-point_cloud/lma_dance.py, Dance_revflow-point_cloud/correlation_dance.py for the evaluation of the generated dance sequences of the models.
 
 The visualization of the generated dance sequence is done using client-server method in Unity. The dance clips generated in Python (server) is displayed in Unity (client). The repository used for this purpose is : https://github.com/eherr/mi_variational_dance_motion_vis. 
+
+Reference for the AIST++ database:
+
+R. Li, S. Yang, D. A. Ross, and A. Kanazawa, “Learn to dance with AIST++: music conditioned 3d dance generation, ”arxiv preprint arxiv:2101.08779, 2021.
+
