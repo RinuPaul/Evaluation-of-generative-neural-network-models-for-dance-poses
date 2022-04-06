@@ -6,3 +6,6 @@ Dataset as train and test in data
 
 train.py for training the model
 test.py for testing/inferencing
+
+Reference:
+R. Huang, H. Hu, W. Wu, K. Sawada, M. Zhang, and D. Jiang, “Dance revolution: Long-term dance generation with music via curriculum learning,” in International Conference on Learning Representations, 2021.
