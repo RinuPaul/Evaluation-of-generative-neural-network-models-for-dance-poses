@@ -1,0 +1,41 @@
+{
+    "data": {
+        "data_path": "D:/workspace/my_git_repos/mi_thesis_variational_dance_motion_models/AIST_training_data_HPGAN.npy",
+        "input_sequence_length": 30,
+        "output_sequence_length": 30
+    },
+    "generator": {
+        "output_length": 30,
+        "output_dims": 402,
+        "hidden_units": 1024,
+        "z_dims": 128,
+        "embed_shape": 128,
+        "num_layers": 2,
+        "cell": "gru"
+    },
+    "discriminator": {
+        "hidden_size": 512,
+        "embed_shape": 128,
+        "num_layers": 3,
+        "output_activation": null
+    },
+    "evaluator": {
+        "hidden_size": 512,
+        "embed_shape": 128,
+        "num_layers": 3,
+        "output_activation": "sigmoid"
+    },
+    "train": {
+        "epochs": 200,
+        "learning_rate": 0.0001,
+        "batchsize": 16,
+        "save_every_epochs": 10,
+        "sample_every_epochs": 10,
+        "g_iter": 1,
+        "d_iter": 5,
+        "e_iter": 1,
+        "lambda_c": 0.01,
+        "lambda_b": 0.1,
+        "bvh_file": "data/training_data/6kmh.bvh"
+    }
+}
