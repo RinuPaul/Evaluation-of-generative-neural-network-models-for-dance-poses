@@ -1,0 +1,6 @@
+joblib
+torch
+numpy
+pandas
+tensorboardX
+matplotlib
