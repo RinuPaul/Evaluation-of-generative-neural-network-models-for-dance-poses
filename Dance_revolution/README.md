@@ -4,8 +4,11 @@ Data: motion files(bvh) and audio files(mp3/wav). Prepare test and train dataset
 
 Dataset as train and test in data
 
-train.py for training the model
+train.py for training the model 
+
 test.py for testing/inferencing
+
+The model was customized to adapt to 3D point cloud dataset of dance clips.
 
 Reference:
 R. Huang, H. Hu, W. Wu, K. Sawada, M. Zhang, and D. Jiang, “Dance revolution: Long-term dance generation with music via curriculum learning,” in International Conference on Learning Representations, 2021.
