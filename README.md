@@ -7,7 +7,7 @@ The generation of dance synchronized with music is challenging in nature because
 
 The preprocessing of the AIST++ datset to convert the dance clips into point cloud data representation and the extraction of audio features are given in data_preprocessing_for_ref_models.py.
 
-The LMA evaluation codes are Dance_revflow-point_cloud/lma_dance.py, Dance_revflow-point_cloud/correlation_dance.py for the evaluation of the generated dance sequences of the models.
+The LMA evaluation codes are Dance_revolution/lma_dance.py, Dance_revolution/correlation_dance.py for the evaluation of the generated dance sequences of the models.
 
 The visualization of the generated dance sequence is done using client-server method in Unity. The dance clips generated in Python (server) is displayed in Unity (client). The repository used for this purpose is : https://github.com/eherr/mi_variational_dance_motion_vis. 
 
